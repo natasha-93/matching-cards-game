@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './styles.module.css'
 
 function Card({ url, isFlipped, id, onFlip }) {
   const bg = isFlipped ? `url("${url}")` : "blue"
